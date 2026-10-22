@@ -365,6 +365,22 @@ The MIT License permits use, modification, and redistribution subject to its con
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance and [SECURITY.md](SECURITY.md) for vulnerability reporting.
 
+## ◈ Developer and Project Resources
+
+| Resource | Purpose |
+|---|---|
+| [Setup and Troubleshooting](docs/SETUP_AND_TROUBLESHOOTING.md) | Environment preparation and common setup issues |
+| [Testing and Validation](TESTING.md) | Repeatable test cases and recording real results |
+| [Implementation Evidence](docs/TEST_EVIDENCE.md) | Checklist for genuine screenshots and prototype evidence |
+| [Contributing](CONTRIBUTING.md) | Contribution workflow and code expectations |
+| [Security Policy](SECURITY.md) | How to report potential vulnerabilities |
+| [Code of Conduct](CODE_OF_CONDUCT.md) | Expectations for respectful collaboration |
+| [Changelog](CHANGELOG.md) | Summary of notable project updates |
+| [Citation metadata](CITATION.cff) | Information for citing the project |
+| [License](LICENSE) and [Copyright](COPYRIGHT.md) | Reuse terms and project copyright notice |
+
+Automated Python syntax validation is configured in GitHub Actions. It checks Python files for syntax/compilation errors; it does not prove that hardware, models, or end-to-end features work.
+
 ## ◈ References
 
 - [Python Documentation](https://docs.python.org/3/)
