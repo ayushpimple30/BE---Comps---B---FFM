@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="assets/images/ffm-sentinel-banner.png"
+       alt="FFM Sentinel — Offline Multimodal AI Companion"
+       width="100%">
+</div>
 <!--
 FFM Sentinel — Project README
 GitHub README supports Markdown, Mermaid, and limited HTML.
