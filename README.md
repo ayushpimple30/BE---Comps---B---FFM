@@ -405,7 +405,7 @@ The following images are **documentation/code reference screenshots**. They illu
 
 </details>
 
-> **Image note:** Keep screenshots authentic and unaltered where they serve as implementation evidence. Avoid showing secrets, tokens, personal data, or live credentials. Animated elements elsewhere in this README are decorative and do not indicate live system status.
+
 
 ## ◈ Implementation Evidence
 
