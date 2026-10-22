@@ -259,39 +259,153 @@ BE---Comps---B---FFM/
 
 ## ◈ Prototype Gallery
 
-Add your **real project images** to the paths below, then uncomment or adapt the matching Markdown image lines. GitHub displays repository images when their paths are correct.
-
-| Image | Save it here | What to capture |
-|---|---|---|
-| Prototype hero photo | `assets/images/bmo-prototype.jpg` | Best clear photo of the assembled BMO device |
-| Front view | `assets/images/prototype-front.jpg` | Screen, face, buttons, and enclosure |
-| Hardware internals | `assets/images/hardware-internals.jpg` | Raspberry Pi, storage, power, and wiring |
-| Application screenshot | `assets/screenshots/application.png` | Actual running application UI |
-| AI response screenshot | `assets/screenshots/ai-response.png` | Real model input/output |
-| Voice or camera test | `assets/screenshots/multimodal-test.png` | Only if that feature is implemented |
-
-Create these folders if they do not exist. Use your own photographs and screenshots; do not leave broken image paths or substitute stock photos for implementation evidence.
-
-Example for the main prototype image (add it after the file exists):
-
-```markdown
 <div align="center">
-  <img src="assets/images/bmo-prototype.jpg" alt="FFM Sentinel physical prototype" width="720" />
-  <p><em>FFM Sentinel — physical prototype</em></p>
+
+<img src="assets/images/bmo-prototype-screen.jpg" alt="FFM Sentinel BMO prototype with its display active" width="78%" />
+
+<p><strong>FFM SENTINEL · PHYSICAL PROTOTYPE</strong></p>
+<sub>A custom BMO-inspired enclosure with display, physical controls, speaker housings, and embedded-computing hardware.</sub>
+
 </div>
-```
 
-### Suggested gallery layout
+<div align="center">
 
-Once the image files are uploaded, use this pattern:
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,50:0e7490,100:6d28d9&height=3&section=header" alt="Cyan and violet divider" width="100%" />
 
-```markdown
-| Physical Prototype | Application Interface |
-|---|---|
-| ![Prototype](assets/images/bmo-prototype.jpg) | ![Application](assets/screenshots/application.png) |
+</div>
 
-![AI response test](assets/screenshots/ai-response.png)
-```
+### The build, from the outside in
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+
+<img src="assets/images/bmo-prototype-front.jpg" alt="Front view of the assembled BMO prototype" width="100%" />
+
+**01 · Assembled prototype**
+
+<sub>Front view of the enclosure, display, buttons, arms, and feet.</sub>
+
+</td>
+<td width="50%" align="center" valign="top">
+
+<img src="assets/images/bmo-prototype-internals.jpg" alt="Internal electronics in the BMO prototype enclosure" width="100%" />
+
+**02 · Internal assembly**
+
+<sub>A look inside the enclosure at the mounted electronics and battery holder.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+
+<img src="assets/images/raspberry-pi-5-16gb.jpg" alt="Raspberry Pi 5 board with 16GB RAM" width="100%" />
+
+**03 · Compute platform**
+
+<sub>Raspberry Pi 5 with 16GB RAM, the intended embedded-computing platform.</sub>
+
+</td>
+<td width="50%" align="center" valign="top">
+
+<img src="assets/images/ssd-storage.jpg" alt="128GB SATA solid-state drive in a USB enclosure" width="100%" />
+
+**04 · Storage hardware**
+
+<sub>128GB solid-state drive in an external enclosure.</sub>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2400&pause=850&color=22D3EE&center=true&vCenter=true&width=760&height=36&lines=HARDWARE+MEETS+INTERACTION;A+PHYSICAL+FORM+FOR+LOCAL+AI;DESIGNED%2C+ASSEMBLED%2C+ITERATED" alt="Animated prototype gallery tagline" />
+
+</div>
+
+### Interface states
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+<img src="assets/screenshots/bmo-ui-welcome.jpg" alt="BMO interface showing its welcome state" width="100%" />
+
+**Welcome state**
+
+<sub>Interface example displaying a greeting and ready status.</sub>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<img src="assets/screenshots/bmo-ui-connection.jpg" alt="BMO interface showing a connection problem state" width="100%" />
+
+**Connection status**
+
+<sub>Example of the interface communicating a connection issue.</sub>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<img src="assets/screenshots/bmo-ui-response.jpg" alt="BMO interface showing a positive response state" width="100%" />
+
+**Response state**
+
+<sub>A friendly response screen with a positive status indicator.</sub>
+
+</td>
+</tr>
+</table>
+
+### Implementation references
+
+The following images are **documentation/code reference screenshots**. They illustrate implementation ideas and are not, by themselves, proof that every shown module is present or running in the current repository.
+
+<details>
+<summary><strong>Audio orchestration · speech-to-text and text-to-speech reference</strong></summary>
+
+<img src="assets/screenshots/reference-audio-orchestration.jpg" alt="Code reference screenshot for local audio orchestration" width="100%" />
+
+</details>
+
+<details>
+<summary><strong>Edge synchronization and queue endpoint reference</strong></summary>
+
+<img src="assets/screenshots/reference-edge-queue.jpg" alt="Code reference screenshot for edge synchronization and backend queue endpoint" width="100%" />
+
+</details>
+
+<details>
+<summary><strong>Upload validation and security reference</strong></summary>
+
+<img src="assets/screenshots/reference-upload-security.jpg" alt="Code reference screenshot for upload validation and security checks" width="100%" />
+
+</details>
+
+<details>
+<summary><strong>Game execution and display management reference</strong></summary>
+
+<img src="assets/screenshots/reference-game-execution.jpg" alt="Code reference screenshot for game execution and display management" width="100%" />
+
+</details>
+
+<details>
+<summary><strong>Queue schema and JSON payload reference</strong></summary>
+
+<img src="assets/screenshots/reference-queue-schema.jpg" alt="Code reference screenshot for a JSON queue schema" width="100%" />
+
+</details>
+
+<details>
+<summary><strong>Hash verification pipeline reference</strong></summary>
+
+<img src="assets/screenshots/reference-hash-verification.jpg" alt="Document screenshot for hash verification and endpoint output" width="100%" />
+
+</details>
+
+> **Image note:** Keep screenshots authentic and unaltered where they serve as implementation evidence. Avoid showing secrets, tokens, personal data, or live credentials. Animated elements elsewhere in this README are decorative and do not indicate live system status.
 
 ## ◈ Implementation Evidence
 
