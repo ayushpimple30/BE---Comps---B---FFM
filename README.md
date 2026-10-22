@@ -479,6 +479,18 @@ The MIT License permits use, modification, and redistribution subject to its con
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance and [SECURITY.md](SECURITY.md) for vulnerability reporting.
 
+## 📈 Project Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushpimple30&repo=BE---Comps---B---FFM&bg_color=07111f&color=67e8f9&line=22d3ee&point=a78bfa&area=true&hide_border=true&custom_title=FFM%20Sentinel%20%E2%80%94%20Repository%20Activity" alt="Animated activity graph for FFM Sentinel repository" width="100%" />
+
+<sub>Activity is generated from actual repository history and may take time to refresh. This graphic is separate from GitHub's small green sparkline on your profile.</sub>
+
+</div>
+
+---
+
 ## ◈ Developer and Project Resources
 
 | Resource | Purpose |
