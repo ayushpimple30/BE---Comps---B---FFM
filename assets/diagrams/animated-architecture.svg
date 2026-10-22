@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">FFM Sentinel animated system architecture</title>
+<desc id="desc">Conceptual flow from camera, microphone and interface inputs through input processing, local AI models, response handling and text or audio outputs.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#111b35"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .label{font:600 19px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}
+    .small{font:14px 'Segoe UI',Arial,sans-serif;fill:#a9bfd8}
+    .node{fill:#101f35;stroke:#334e70;stroke-width:1.5}
+    .ai{fill:#211c46;stroke:#8b5cf6;stroke-width:1.7}
+    .out{fill:#10372f;stroke:#34d399;stroke-width:1.7}
+    .path{fill:none;stroke:#38bdf8;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:8 11;animation:flow 2.4s linear infinite}
+    .pulse{fill:#67e8f9;filter:url(#glow);animation:travel 3.2s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-76}}
+    @keyframes travel{0%{offset-distance:0%;opacity:0}10%{opacity:1}90%{opacity:1}100%{offset-distance:100%;opacity:0}}
+    @media (prefers-reduced-motion: reduce){.path,.pulse{animation:none}}
+  </style>
+</defs>
+<rect width="1100" height="650" rx="26" fill="url(#bg)"/>
+<circle cx="950" cy="90" r="120" fill="#0ea5e9" opacity=".07"/><circle cx="120" cy="560" r="150" fill="#8b5cf6" opacity=".08"/>
+<text x="550" y="48" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#f8fafc">FFM SENTINEL · SYSTEM FLOW</text>
+<text x="550" y="75" text-anchor="middle" class="small">Conceptual architecture — align with implemented modules</text>
+<g>
+<rect class="node" x="55" y="125" width="260" height="70" rx="15"/><text class="label" x="185" y="154" text-anchor="middle">Camera Input</text><text class="small" x="185" y="177" text-anchor="middle">Visual data · if implemented</text>
+<rect class="node" x="55" y="225" width="260" height="70" rx="15"/><text class="label" x="185" y="254" text-anchor="middle">Microphone Input</text><text class="small" x="185" y="277" text-anchor="middle">Audio data · if implemented</text>
+<rect class="node" x="55" y="325" width="260" height="70" rx="15"/><text class="label" x="185" y="354" text-anchor="middle">User Interface</text><text class="small" x="185" y="377" text-anchor="middle">Text / touch interaction</text>
+<rect class="ai" x="405" y="225" width="290" height="95" rx="17"/><text class="label" x="550" y="262" text-anchor="middle">Input Processing</text><text class="small" x="550" y="286" text-anchor="middle">Prepare and route inputs</text>
+<rect class="ai" x="405" y="365" width="290" height="95" rx="17"/><text class="label" x="550" y="402" text-anchor="middle">Local AI Layer</text><text class="small" x="550" y="426" text-anchor="middle">Configured models / runtime</text>
+<rect class="out" x="790" y="225" width="255" height="85" rx="17"/><text class="label" x="917" y="260" text-anchor="middle">Text / Display</text><text class="small" x="917" y="284" text-anchor="middle">Visual response</text>
+<rect class="out" x="790" y="365" width="255" height="85" rx="17"/><text class="label" x="917" y="400" text-anchor="middle">Audio Output</text><text class="small" x="917" y="424" text-anchor="middle">Speech / sound if enabled</text>
+<rect class="node" x="405" y="525" width="290" height="65" rx="15"/><text class="label" x="550" y="552" text-anchor="middle">Embedded Platform</text><text class="small" x="550" y="574" text-anchor="middle">Compute + peripherals</text>
+</g>
+<g class="path">
+<path id="p1" d="M315 160 H360 V250 H405"/><path id="p2" d="M315 260 H405"/><path id="p3" d="M315 360 H360 V290 H405"/>
+<path id="p4" d="M550 320 V365"/><path id="p5" d="M695 405 H745 V267 H790"/><path id="p6" d="M695 420 H790"/>
+<path id="p7" d="M550 525 V460"/>
+</g>
+<g fill="#67e8f9" filter="url(#glow)">
+<circle r="5"><animateMotion dur="3s" repeatCount="indefinite" path="M315 160 H360 V250 H405"/></circle>
+<circle r="5"><animateMotion dur="2.4s" repeatCount="indefinite" path="M315 260 H405"/></circle>
+<circle r="5"><animateMotion dur="3.2s" repeatCount="indefinite" path="M315 360 H360 V290 H405"/></circle>
+<circle r="5"><animateMotion dur="2.2s" repeatCount="indefinite" path="M550 320 V365"/></circle>
+<circle r="5"><animateMotion dur="3.1s" repeatCount="indefinite" path="M695 405 H745 V267 H790"/></circle>
+<circle r="5"><animateMotion dur="2.8s" repeatCount="indefinite" path="M695 420 H790"/></circle>
+</g>
+<text x="550" y="625" text-anchor="middle" class="small">FFM Sentinel · Interactive AI companion · Architecture subject to implementation</text>
+</svg>
