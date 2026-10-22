@@ -29,8 +29,7 @@ logs/
 tmp/
 temp/
 .cache/
-models/
-ollama_models/
+# Add model-weight directories here only if they are stored in this repository.
 
 # Jupyter
 .ipynb_checkpoints/
