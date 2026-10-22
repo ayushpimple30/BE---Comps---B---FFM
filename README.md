@@ -6,7 +6,9 @@ Animations are provided by an external SVG service; GitHub does not run custom C
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&duration=2800&pause=900&color=39D0FF&center=true&vCenter=true&width=850&height=70&lines=FFM+SENTINEL;Your+Intelligent+AI+Companion;Local+AI.+Real-World+Interaction." alt="Animated FFM Sentinel title" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:07111f,45:155e9a,100:7c3aed&height=210&section=header&text=FFM%20SENTINEL&fontSize=48&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=OFFLINE%20MULTIMODAL%20AI%20COMPANION&descAlignY=58&descSize=16" alt="Animated FFM Sentinel wave header" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2600&pause=850&color=39D0FF&center=true&vCenter=true&width=850&height=52&lines=Your+Intelligent+AI+Companion;Local+AI+%E2%80%A2+Multimodal+Interaction;Embedded+Computing+%E2%80%A2+Practical+Innovation" alt="Animated FFM Sentinel tagline" />
 
 <p><strong>OFFLINE MULTIMODAL AI COMPANION FOR INTERACTIVE ASSISTANCE</strong></p>
 
@@ -308,7 +310,9 @@ Performance depends on available memory, compute capability, model size, depende
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=39D0FF&center=true&vCenter=true&width=650&height=40&lines=Built+with+curiosity.;Designed+for+real-world+interaction.;FFM+Sentinel+%E2%80%94+Engineering+intelligence." alt="Animated project sign-off" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=39D0FF&center=true&vCenter=true&width=700&height=42&lines=Built+with+curiosity.;Designed+for+real-world+interaction.;FFM+Sentinel+%E2%80%94+Engineering+intelligence." alt="Animated project sign-off" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,55:155e9a,100:07111f&height=110&section=footer&animation=fadeIn" alt="Animated gradient footer" width="100%" />
 
 <sub>Final-year engineering project • St. John College of Engineering and Management</sub>
 
