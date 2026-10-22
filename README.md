@@ -69,36 +69,15 @@ The list below describes the intended areas of the project. Mark a capability as
 | 🔩 Hardware integration | Connect the application to the target computing platform and peripherals |
 | 🔒 Local-first direction | Reduce cloud dependence where the full workflow supports local operation |
 
-## ◈ Architecture
+## ◈ Animated System Architecture
 
-The diagram below shows the **conceptual system flow**. Update the blocks and connections to match the modules actually present in the codebase.
+The diagram below uses animated SVG paths and moving signal pulses to make the conceptual data flow easier to follow. It is an illustration, not proof that every module is implemented.
 
-```mermaid
-flowchart TD
-    U["User"] --> IN["Input Layer"]
-    CAM["Camera"] --> IN
-    MIC["Microphone"] --> IN
+<div align="center">
+  <img src="assets/diagrams/animated-architecture.svg" alt="Animated FFM Sentinel system architecture showing inputs, processing, local AI, and output layers" width="100%" />
+</div>
 
-    IN --> PRE["Input Processing"]
-    PRE --> AI["AI Orchestration"]
-    AI --> LLM["Language Model"]
-    AI --> VLM["Vision Model"]
-    LLM --> RESP["Response Handling"]
-    VLM --> RESP
-
-    RESP --> TXT["Text / Display Output"]
-    RESP --> AUD["Speech / Audio Output"]
-
-    HW["Embedded Computing Platform"] --- PRE
-    HW --- AI
-
-    classDef source fill:#102A43,stroke:#39D0FF,color:#FFFFFF,stroke-width:1.5px
-    classDef process fill:#211A45,stroke:#A78BFA,color:#FFFFFF,stroke-width:1.5px
-    classDef output fill:#12372A,stroke:#34D399,color:#FFFFFF,stroke-width:1.5px
-    class U,CAM,MIC source
-    class IN,PRE,AI,LLM,VLM,RESP process
-    class TXT,AUD output
-```
+> **Faculty note:** This is a conceptual architecture. Update its blocks and connections to match the modules actually implemented and tested in the repository.
 
 ### Architecture layers
 
@@ -199,19 +178,62 @@ Replace `YOUR_ENTRY_POINT.py` with the real script name. Additional hardware con
 
 ## ◈ Repository Guide
 
-Use this as a documentation target, not as a claim that these exact folders already exist.
+Keep the README media organised like this. Create only the folders you need; do not move existing source files just to match this example.
 
 ```text
 BE---Comps---B---FFM/
 ├── README.md
-├── requirements.txt
-├── .gitignore
-├── src/                 # Application source code
-├── docs/                # Architecture and technical documentation
 ├── assets/
-│   ├── diagrams/        # System diagrams
-│   └── screenshots/     # Actual implementation screenshots
-└── tests/               # Functional tests, where available
+│   ├── diagrams/
+│   │   └── animated-architecture.svg
+│   ├── images/
+│   │   ├── bmo-prototype.jpg
+│   │   ├── prototype-front.jpg
+│   │   └── hardware-internals.jpg
+│   └── screenshots/
+│       ├── application.png
+│       ├── ai-response.png
+│       └── multimodal-test.png
+├── docs/
+└── [existing source files and folders]
+```
+
+**Where to add images:** open the repository → **Add file** → **Upload files** → drag the images into the matching folder. If a folder does not exist, include its name in the upload path or create a placeholder file first. Keep filenames simple and use the same spelling and extension as the README paths.
+
+## ◈ Prototype Gallery
+
+Add your **real project images** to the paths below, then uncomment or adapt the matching Markdown image lines. GitHub displays repository images when their paths are correct.
+
+| Image | Save it here | What to capture |
+|---|---|---|
+| Prototype hero photo | `assets/images/bmo-prototype.jpg` | Best clear photo of the assembled BMO device |
+| Front view | `assets/images/prototype-front.jpg` | Screen, face, buttons, and enclosure |
+| Hardware internals | `assets/images/hardware-internals.jpg` | Raspberry Pi, storage, power, and wiring |
+| Application screenshot | `assets/screenshots/application.png` | Actual running application UI |
+| AI response screenshot | `assets/screenshots/ai-response.png` | Real model input/output |
+| Voice or camera test | `assets/screenshots/multimodal-test.png` | Only if that feature is implemented |
+
+Create these folders if they do not exist. Use your own photographs and screenshots; do not leave broken image paths or substitute stock photos for implementation evidence.
+
+Example for the main prototype image (add it after the file exists):
+
+```markdown
+<div align="center">
+  <img src="assets/images/bmo-prototype.jpg" alt="FFM Sentinel physical prototype" width="720" />
+  <p><em>FFM Sentinel — physical prototype</em></p>
+</div>
+```
+
+### Suggested gallery layout
+
+Once the image files are uploaded, use this pattern:
+
+```markdown
+| Physical Prototype | Application Interface |
+|---|---|
+| ![Prototype](assets/images/bmo-prototype.jpg) | ![Application](assets/screenshots/application.png) |
+
+![AI response test](assets/screenshots/ai-response.png)
 ```
 
 ## ◈ Implementation Evidence
