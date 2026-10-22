@@ -12,6 +12,12 @@ Animations are provided by an external SVG service; GitHub does not run custom C
 
 <p><img src="https://img.shields.io/badge/BUILDING-FFM%20SENTINEL-0f172a?style=for-the-badge&labelColor=164e63" alt="Building FFM Sentinel" /> <img src="https://img.shields.io/badge/FOCUS-LOCAL--FIRST%20AI-6d28d9?style=for-the-badge&labelColor=0f172a" alt="Local-first AI" /> <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-d97706?style=for-the-badge&labelColor=0f172a" alt="Active development" /></p>
 
+<p>
+  <img src="https://img.shields.io/github/stars/ayushpimple30/BE---Comps---B---FFM?style=for-the-badge&logo=github&color=7c3aed&label=STARS" alt="Repository stars" />
+  <img src="https://img.shields.io/github/forks/ayushpimple30/BE---Comps---B---FFM?style=for-the-badge&logo=github&color=0891b2&label=FORKS" alt="Repository forks" />
+  <img src="https://img.shields.io/github/last-commit/ayushpimple30/BE---Comps---B---FFM?style=for-the-badge&color=059669&label=LAST%20UPDATE" alt="Last repository update" />
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1300&color=A78BFA&center=true&vCenter=true&width=700&height=30&lines=PERCEPTION+%E2%86%92+REASONING+%E2%86%92+INTERACTION;LOCAL-FIRST+AI+%E2%80%A2+EMBEDDED+SYSTEMS;ENGINEERING+INTELLIGENCE+INTO+INTERACTION" alt="Animated system motto" />
 
 <p><strong>OFFLINE MULTIMODAL AI COMPANION FOR INTERACTIVE ASSISTANCE</strong></p>
@@ -42,6 +48,9 @@ Animations are provided by an external SVG service; GitHub does not run custom C
 ## ✦ The FFM Sentinel Experience
 
 <div align="center">
+
+<img src="assets/diagrams/animated-interaction-loop.svg" alt="Animated FFM Sentinel perception, reasoning, and response loop" width="100%" />
+
 
 <img src="https://capsule-render.vercel.app/api?type=blur&color=0:0f172a,50:164e63,100:4c1d95&height=100&section=header&text=PERCEIVE%20%E2%80%A2%20PROCESS%20%E2%80%A2%20RESPOND&fontSize=22&fontColor=ffffff&animation=twinkling" alt="Animated project divider" width="100%" />
 
