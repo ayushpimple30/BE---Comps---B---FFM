@@ -485,7 +485,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance and [SECURITY.m
 
 <img src="assets/diagrams/activity-pulse.svg" alt="Animated illustrative activity graph for FFM Sentinel" width="100%" />
 
-<sub>This is a decorative animated graphic, not actual GitHub contribution data. GitHub’s profile sparkline remains based on real activity.</sub>
 
 </div>
 
