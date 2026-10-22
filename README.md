@@ -39,7 +39,6 @@ Animations are provided by an external SVG service; GitHub does not run custom C
 
 The project explores the use of locally hosted AI models and hardware-assisted interaction. Its goal is to make AI interaction more self-contained where supported by the configured models, software, and hardware.
 
-> **Project principle:** Document what has been implemented, test what is claimed, and keep the system understandable and reproducible.
 
 ## ◈ The Problem
 
