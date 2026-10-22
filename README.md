@@ -10,6 +10,10 @@ Animations are provided by an external SVG service; GitHub does not run custom C
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2600&pause=850&color=39D0FF&center=true&vCenter=true&width=850&height=52&lines=Your+Intelligent+AI+Companion;Local+AI+%E2%80%A2+Multimodal+Interaction;Embedded+Computing+%E2%80%A2+Practical+Innovation" alt="Animated FFM Sentinel tagline" />
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushpimple30&bg_color=07111f&color=39d0ff&line=8b5cf6&point=ffffff&area=true&hide_border=true&custom_title=Building%20FFM%20Sentinel%20%E2%80%A2%20Contribution%20Pulse" alt="GitHub contribution activity graph" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1300&color=A78BFA&center=true&vCenter=true&width=700&height=30&lines=PERCEPTION+%E2%86%92+REASONING+%E2%86%92+INTERACTION;LOCAL-FIRST+AI+%E2%80%A2+EMBEDDED+SYSTEMS;ENGINEERING+INTELLIGENCE+INTO+INTERACTION" alt="Animated system motto" />
+
 <p><strong>OFFLINE MULTIMODAL AI COMPANION FOR INTERACTIVE ASSISTANCE</strong></p>
 
 <p>
@@ -30,6 +34,35 @@ Animations are provided by an external SVG service; GitHub does not run custom C
   <a href="#-setup">Setup</a> •
   <a href="#-team">Team</a>
 </p>
+
+</div>
+
+---
+
+## ✦ The FFM Sentinel Experience
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=blur&color=0:0f172a,50:164e63,100:4c1d95&height=100&section=header&text=PERCEIVE%20%E2%80%A2%20PROCESS%20%E2%80%A2%20RESPOND&fontSize=22&fontColor=ffffff&animation=twinkling" alt="Animated project divider" width="100%" />
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/01-PERCEIVE-0EA5E9?style=for-the-badge" alt="Perceive"/><br/>
+<sub>Receive supported inputs</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/02-REASON-7C3AED?style=for-the-badge" alt="Reason"/><br/>
+<sub>Process with configured AI</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/03-RESPOND-059669?style=for-the-badge" alt="Respond"/><br/>
+<sub>Return supported outputs</sub>
+</td>
+</tr>
+</table>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=22D3EE&center=true&vCenter=true&width=720&height=38&lines=One+compact+system.;Multiple+ways+to+interact.;Built+to+explore+local+AI." alt="Animated experience statement" />
 
 </div>
 
@@ -87,6 +120,20 @@ The diagram below uses animated SVG paths and moving signal pulses to make the c
 3. **AI layer** — invokes the configured language or vision model.
 4. **Response layer** — formats the result for the supported output interface.
 5. **Hardware layer** — supplies the compute platform and peripheral connections.
+
+## ✧ Visual Signal Path
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2200&pause=700&color=67E8F9&center=true&vCenter=true&width=780&height=40&lines=INPUT+DETECTED...;ROUTING+TO+PROCESSING...;LOCAL+AI+LAYER+READY...;RESPONSE+PATH+ILLUSTRATED..." alt="Animated system signal sequence" />
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b1220,50:164e63,100:312e81&height=3&section=header" alt="Cyan purple divider" width="100%" />
+
+</div>
+
+> The animated labels are visual decoration. They do not indicate live hardware status, model readiness, or real-time system telemetry.
+
+---
 
 ## ◈ Technology Stack
 
@@ -311,6 +358,8 @@ Performance depends on available memory, compute capability, model size, depende
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=39D0FF&center=true&vCenter=true&width=700&height=42&lines=Built+with+curiosity.;Designed+for+real-world+interaction.;FFM+Sentinel+%E2%80%94+Engineering+intelligence." alt="Animated project sign-off" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&pause=1600&color=A78BFA&center=true&vCenter=true&width=600&height=28&lines=END+OF+README+%E2%80%A2+THE+BUILD+CONTINUES;THANK+YOU+FOR+EXPLORING+FFM+SENTINEL" alt="Animated closing line" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,55:155e9a,100:07111f&height=110&section=footer&animation=fadeIn" alt="Animated gradient footer" width="100%" />
 
