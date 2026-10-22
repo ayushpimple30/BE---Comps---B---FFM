@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use or reference FFM Sentinel, please cite the project repository."
+title: "FFM Sentinel: Offline Multimodal AI Companion for Interactive Assistance"
+type: software
+authors:
+  - family-names: Pimple
+    given-names: Ayush
+  - family-names: Raut
+    given-names: Harshal
+  - family-names: Patil
+    given-names: Shreyash
+  - family-names: Patil
+    given-names: Sarvesh
+repository-code: "https://github.com/ayushpimple30/BE---Comps---B---FFM"
+license: MIT
