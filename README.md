@@ -355,6 +355,16 @@ Performance depends on available memory, compute capability, model size, depende
 | Shreyash Patil | 18 |
 | Sarvesh Patil | 17 |
 
+## ◈ License and Copyright
+
+This repository's original project code and documentation are licensed under the **MIT License**. See [LICENSE](LICENSE) for the full terms and [COPYRIGHT.md](COPYRIGHT.md) for the project copyright notice.
+
+Copyright (c) 2026 FFM Sentinel Project Team.
+
+The MIT License permits use, modification, and redistribution subject to its conditions, including preservation of the copyright and license notices. Third-party libraries, AI models, assets, and hardware designs may have separate terms; check those terms before use or redistribution. [MIT License details](https://opensource.org/license/MIT).
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance and [SECURITY.md](SECURITY.md) for vulnerability reporting.
+
 ## ◈ References
 
 - [Python Documentation](https://docs.python.org/3/)
