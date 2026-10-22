@@ -2,12 +2,12 @@
 # ==============================================================================
 # ##############################################################################
 # #                                                                            #
-# #                        S U C H A N A   S P A C E                           #
+# #                                                                           #
 # #                     C O P Y R I G H T   N O T I C E                       #
 # #                                                                            #
 # ##############################################################################
 #
-# Copyright (c) 2026 Suchana Space. ALL RIGHTS RESERVED.
+# Copyright (c) 2026. ALL RIGHTS RESERVED.
 #
 # NOTICE: This source code is confidential, proprietary, and protected by
 # international copyright laws. Unauthorized duplication, distribution,
