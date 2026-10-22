@@ -483,9 +483,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance and [SECURITY.m
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushpimple30&bg_color=0d1117&color=67e8f9&line=22d3ee&point=a78bfa&area=true&hide_border=true&custom_title=GitHub%20Activity%20%E2%80%94%20Ayush%20Pimple" alt="GitHub activity graph for Ayush Pimple" width="100%" />
+<img src="assets/diagrams/activity-pulse.svg" alt="Animated illustrative activity graph for FFM Sentinel" width="100%" />
 
-<sub>This graphic reflects your GitHub contribution activity across repositories. It is separate from GitHub's small green sparkline on your profile.</sub>
+<sub>This is a decorative animated graphic, not actual GitHub contribution data. GitHub’s profile sparkline remains based on real activity.</sub>
 
 </div>
 
