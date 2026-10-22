@@ -10,7 +10,7 @@ Animations are provided by an external SVG service; GitHub does not run custom C
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2600&pause=850&color=39D0FF&center=true&vCenter=true&width=850&height=52&lines=Your+Intelligent+AI+Companion;Local+AI+%E2%80%A2+Multimodal+Interaction;Embedded+Computing+%E2%80%A2+Practical+Innovation" alt="Animated FFM Sentinel tagline" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushpimple30&bg_color=07111f&color=39d0ff&line=8b5cf6&point=ffffff&area=true&hide_border=true&custom_title=Building%20FFM%20Sentinel%20%E2%80%A2%20Contribution%20Pulse" alt="GitHub contribution activity graph" width="100%" />
+<p><img src="https://img.shields.io/badge/BUILDING-FFM%20SENTINEL-0f172a?style=for-the-badge&labelColor=164e63" alt="Building FFM Sentinel" /> <img src="https://img.shields.io/badge/FOCUS-LOCAL--FIRST%20AI-6d28d9?style=for-the-badge&labelColor=0f172a" alt="Local-first AI" /> <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-d97706?style=for-the-badge&labelColor=0f172a" alt="Active development" /></p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1300&color=A78BFA&center=true&vCenter=true&width=700&height=30&lines=PERCEPTION+%E2%86%92+REASONING+%E2%86%92+INTERACTION;LOCAL-FIRST+AI+%E2%80%A2+EMBEDDED+SYSTEMS;ENGINEERING+INTELLIGENCE+INTO+INTERACTION" alt="Animated system motto" />
 
